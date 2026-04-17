@@ -1,44 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <tittle>AutoLab Enterprise   |  Feednack</tittle>
-    "limk rel=stylesheet" href= "css/style.css">
-</head>
-<body>
 
-    <header>
-        <nav>
-            <div class="logo">LOGO</div>
-            <ul>
-                <li><a href="index.html"></a>Home</li>
-                <li><a href="=about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="feedback.html" class="active">Feedback</a></li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <tittle>AutoLab Enterprise - Feedback</tittle>
+        <link rel="stylesheet" href= "style.css">
+    </head>
 
-    <main>
-        <section class="feedback">
+    <body>
+
+        <!--
+            HEADER & NAVIGATION    
+        -->
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="AutoLab Enterprise Logo">
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html"></a>Home</li>
+                    <li><a href="=about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!--
+            MAIN CONTENT
+        -->
+        <main>
+
             <h1>Feedback</h1>
 
-            <div class="feedback-form">
-                <h3>FeedbacK Form</h3>
-                <form>
+            <!-- Feedback-form -->
+            <section id="feedback-form">
+
+                <form action="#" method="post">
+                    <h2>Feedback Form</h2>
+
                     <label for="comments">Comments:</label>
-                    <textarea id="comments" rows="6"></textarea>
+                    <textarea id="comments" rows="5"cols="40" 
+                        placeholder="Write you comments here..."></textarea>
+
                     <button type="submit">Submit Feedback</button>
+
                 </form>
-            </div>
-        </section>
-    </main>
 
-    <footer>
-        <p>&copy; 2026 AutoLab Enterprise. All rights reserved.</p>
-    </footer>
+            </section>
 
-</body>
+        </main>
+
+
+        <!--
+            FOOTER
+        -->
+        <footer>
+            <p>&copy; 2026 AutoLab Enterprise. All rights reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+
 </html>
