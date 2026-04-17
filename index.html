@@ -1,91 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <tittle> AutoLab Enterprise   |  Home</tittle>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    
-    <!-- Top Navigation -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">LOGO</div>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="feedback.html">Feedback</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <!-- Welcome Hero Section -->
-        <section class="hero">
-            <h1>Welcome to AutoLab Enterprise!</h1>
-            <p class="tagline">Driven by Precision, Powered by Realiability</p>
-                
-            <div class="content-wrapper">
-                <!-- Missions -->
-                 <div class="mission">
-                <h3>AutoLab Enterprise's missions</h3>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <tittle>AutoLab Enterprise - Home</tittle>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!--
+            HEADER & NAVIGATION
+        -->
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="AutoLab Enterprise Logo">
+            </div>
+
+            <nav>
                 <ul>
-                    <li>Commitment to safety and reliability</li>
-                    <li>Provision of customer-focused services</li>
-                    <li>Maintenance, innovation and logistics</li>
-                    <li>Improved customer relations</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
                 </ul>
+            </nav>
+        </header>
+
+        <!--
+            MAIN CONTENT
+        -->
+        <main>
+
+            <!-- Hero Section -->
+            <section id="hero">
+
+                <div class="hero-text">
+                    <h1>Welcome to AutoLab Enterprise!</h1>
+                    <p class="tagline">Driven by Precision, Powered by Reliability</p>
+
+                    <h2>AutoLab Enterprise's Missions</h2>
+                    <ul>
+                        <li>Commitment to safety and reliability</li>
+                        <li>Provision of customer focused services</li>
+                        <li>Maintenance, innovation and Logistics</li>
+                        <li>Improved customer relations</li>
+                    </ul>
                 </div>
 
-                <!-- Arrow Box -->
-             <div class="arrow-box">
-                <button onclick="prevSlide()" class="arrow">&lt;</button>
-                <p id="slide-text">Goods-in-Transit Insurance  ~Full coverage</p>
-                <button onclick="nextSlide()" class="arrow">&gt;</button>
-             </div>
-            </div>
-        </section>
+                <div class="hero-slideshow">
+                    <!-- Slideshow images go here -->
+                     <button class="slide-btn prev">&lt;</button>
 
-        <!-- Quick Links to Services -->
-        <section class="quick-links">
-            <h2>Quick Links to our Services</h2>
-            <div class="service-cards">
-                <div class="card">
-                    <h3>Transport Services</h3>
-                    <a href="services.html" class="learn-more">Learn More</a>
+                     <div class="slides">
+                        <img src="images/slide1.jpg" alt="Transport fleet on the road">
+                        <img src="images/slide2.jpg" alt="Mechanical maintenance in progress">
+                        <img src="images/slide3.jpg" alt="Heacy plant machinery on site">
+                     </div>
+
+                     <button class="slide-btn next">&gt:</button>
                 </div>
-                <div class="card">
-                     <h3>Mechanical Maintenance</h3>
-                     <a href="services.html" class="learn-more">Learn More</a> 
+
+            </section>
+
+
+            <!-- Quick Links to Services -->
+             <section id="services-preview">
+                <h2>Quick Links to Our Services</h2>
+
+                <div class="service-cards">
+
+                    <article class="card">
+                        <img src="images/transport.jpg" alt="Transport truck on highway">
+                        <h3>Transport Services</h3>
+                        <a href="services.html#transport" class="btn">Learn More</a>
+                    </article>
+
+                    <article class="card">
+                        <img src="images/mechanical.jpg" alt="Mechanical Works">
+                        <h3>Mechanical Maintenance</h3>
+                        <a href="services.html#mechanical" class="btn">Learn More</a>
+                    </article>
+
+                    <article class="card">
+                        <img src="images/plant.jpg" alt="Excavator on construction site">
+                        <h3>Plant Hire</h3>
+                        <a href="services.html#plant" class="btn">Learn More</a>
+                    </article>
+
                 </div>
-                <div class="card">
-                    <h3>Plant Hire</h3>
-                    <a href="services.html" class="learn-more">Learn More</a>
+             </section>
+
+
+             <!-- Goods in Transit Insurance -->
+              <section id="insurance">
+                <h2>Goods in Transit Insurance</h2>
+                <p>Protect your cargo with insurance coverage</p>
+
+                <div class="insurance-images">
+                    <img src="images/insurance1.jpg" alt="Cargo being loaded onto truck">
+                    <img src="images/insurance2.jpg" alt="Insured delivery in transit">
                 </div>
-            </div>
-        </section>
 
-        <!-- Goods in Transit Insurance -->
-        <section class="insurance">
-            <h2>Goods in Transit Insurance</h2>
-            <p>Protect your cargo with insurance coverage</p>
+                <a href="services.html#inurance" class="btn">Learn More About Coverage</a>
+              </section>
 
-            <div class="images">
-                <div class="placeholder">image</div>
-                <div class="placeholder">image</div>
-            </div>
+        </main>
 
-            <a href="services.html" class="btn-coverage">Learn More about Coverage</a>
-        </section>
-    </main>
 
-    <footer>
-        <p>&copy; 2026 AutoLab Enterprise. All rights reserved.</p>
-    </footer>
+        <!-- 
+            FOOTER
+        -->
+        <footer>
+            <p>&copy; 2026 AutoLab Enterprise. All rights reserved.</p>
+        </footer>
 
-    <script src="js/script.js"></script>
-</body>
+        <script src="script.js"></script>
+
+    </body>
+
 </html>

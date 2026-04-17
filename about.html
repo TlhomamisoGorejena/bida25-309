@@ -1,61 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+    
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <tittle>AutoLab Enterprise   |  About Us</tittle>
-        <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+        <tittle>AutoLab Enterprise - About Us</tittle>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-    <header>
-        <nav>
-            <div class="logo">LOGO</div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" class="active">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="feedback.html">Feedback</a></li>
-            </ul>
-        </nav>
-    </header>
+    <body>
 
-    <main>
-        <section class="about">
-            <h1>ABOUT US</h1>
-
-            <div class="about-grid">
-                <div class="company-info">
-                    <h3>Company Background</h3>
-                    <p>AutoLab Enterprise is a trusted provider of transport solutions,mechanical maintenance, and plant hire services in Botswana and the SADC region.</p>
-                </div>
-                <div class="image-placeholder">image</div>
+        <!--
+            HEADER & NAVIGATION
+         -->
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="AutoLab Enterprise Logo">
             </div>
-    
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </nav>
+        </header>
 
-            <section class="sadc-footprint">
-                 <h2>OUR SADC FOOTPRINT</h2>
-                <div class="image-placeholder map">image (map) </div>
-            </section>
 
-            <section class="Commitment">
-                <h2>AutoLab Enterprise's Commitment to Safety</h2>
-                <div class="Commitment-grid">
-                    <div class="safety-text">
-                        <p>safety and reliability</p>
-                    </div>
-                    <div class="image-placeholder">image</div>
+        <!-- 
+            MAIN CONTENT
+        -->
+        <main>
+
+            <h1>About Us</h1>
+
+
+            <!--Company background -->
+            <section id="Company-background">
+
+                <div class="about-text">
+                    <h2>Company Background</h2>
+                    <p>AutoLab Enterprise is a multidisciplinary service provider established in 2000 by its founder, Mr.Edgar Gorejena.<br/>
+                        Since its inception, the company has grown into a trusted partner for businesses across Botswana and the wider region,<br/>
+                        delivering reliable solutions in transport logistics, mechanical maintenance and plant hire services.<br/>
+                        Built on a foundation of professionalism, safety and reliability, AutoLab Enterprise was created to bridge the gap between <br/>
+                        business efficiency and technical expertise.<br/>
+                        Over the years, it has positioned itself as a key player in supporting industries such as construction, mining and logistics.<br/>
+                        AutoLab Enterprise's core operations are provision of Transport services, Machenical Maintenance and Plant Hire.<br/>
+                        AutoLab Enterprise's strength lies in combining cost-effective solutions with accountability and compliance.<br/>
+                        This is because every service is backed by transparent invoicing andnegotiable rates, insurance coverage and warranty protection,<br/>
+                        professional workmanship and industry standard safety practices.</p>
                 </div>
+
+                <div class="about-image">
+                    <img src="images/company.jpg" alt="AutoLab Enterprise picture">
+                </div>
+
             </section>
-        </section> 
-    </main>
 
-    <footer>
-        <p>&copy; 2026 AutoLab Enterprise. All rights reserved.</p>
-    </footer>
 
-</body>
+            <!--  SADC FOOTPRINT  -->
+            <section id="sadc-footprint">
+                <h2>OUR SADC FOOTPRINT</h2>
+
+                <div class="map">
+                    <img src="images/sadc-map.jpg" alt="Map showing AutoLab Enterprise's presence across SADC region">
+                </div>
+
+            </section>
+
+
+             <!-- Commitment to Safety -->
+            <section id="safety">
+                <h2>AutoLab Enterprise's Commitment to Safety</h2>
+
+                <div class="safety-text">
+                    <p>All transport loads are fully insured and clients are encouraged to insure their cargo for added protection<br/>
+                    Mechanical maintenance and plant hire services are covered by workmanship insurance.<br/>
+                    Every mechanical maintenance project comes with a 6 months workmanship warranty, guranteeing quality of our work.<br/>
+                    Our fleet and machinery undergo reqular inspections, servicing and safety checks to minimize accidents and downtime.<br/>
+                    Provision of GPS tracking, driver monitoring, and emergency response protocols to enhance operational safety.</p>
+                </div>
+
+                <div class="safety-text">
+                    <img src="images/safety.jpg" alt="safety badge">
+                </div>
+
+            </section>
+
+        </main>
+
+
+        <!--
+            FOOTER
+        -->
+        <footer>
+            <p>&copy; 2026 AutoLab Enterprise. All rights reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+
 </html>
 
 
