@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-
-    <!-- Header / Navigation -->
+    
     <header>
         <nav>
             <div class="logo">LOGO</div>
@@ -27,9 +25,9 @@
         <!-- Welcome Section -->
         <section class="hero">
             <h1>Welcome to AutoLab Enterprise!</h1>
-            <p><strong>Driven by Precision, Powered by Realiability</strong></p>
+            <p class="tagline">Driven by Precision, Powered by Realiability</p>
                 
-            <div class="mission">
+            <div class="mission-box">
                 <h3>AutoLab Enterprise's missions</h3>
                 <ul>
                     <li>Commitment to safety and reliability</li>
@@ -39,45 +37,41 @@
                 </ul>
             </div>
 
-            <!-- Arrow Navigation Box -->
+
              <div class="arrow-box">
-                <button onclick="prevSlide()">&lt;</button>
+                <button onclick="prevSlide()" class="arrow">&lt;</button>
                 <p id="slide-text">Goods-in-Transit Insurance  ~Full coverage</p>
-                <button onclick="nextSlide()">&gt;</button>
+                <button onclick="nextSlide()" class="arrow">&gt;</button>
              </div>
         </section>
 
         <!-- Quick Links to Services -->
         <section class="quick-links">
             <h2>Quick Links to our Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
+            <div class="cards">
+                <div class="card">
                     <h3>Transport Services</h3>
                     <a href="services.html">Learn More</a>
                 </div>
-                <div class="service-card">
+                <div class="card">
                      <h3>Mechanical Maintenance</h3>
                      <a href="services.html">Learn More</a>
                 </div>
-                <div class="service-card">
+                <div class="card">
                     <h3>Plant Hire</h3>
                     <a href="services.html">Learn More</a>
                 </div>
             </div>
         </section>
 
-        <!-- Goods in Transit Insurance -->
+        <!-- Insurance Section -->
         <section class="insurance">
             <h2>Goods in Transit Insurance</h2>
             <p>Protect your cargo with insurance coverage</p>
-
-            
-            <div class="insurance-images">
-                <div class="image-placeholder">image</div>
-                <div class="image-placeholder">image</div>
+            <div class="images">
+                <div class="placeholder">image</div>
+                <div class="placeholder">image</div>
             </div>
-
-
             <a href="services.html" class="btn">Learn More about Coverage</a>
         </section>
     </main>
