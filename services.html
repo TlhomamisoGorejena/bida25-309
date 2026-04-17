@@ -1,55 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <tittle>AutoLab Enterprise   |  Services</tittle>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <tittle>AutoLab Enterprise - Services</tittle>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-    <header>
-        <nav>
-            <div class="logo">LOGO</div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html" class="active">Services</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="feedback.html">Feedback</a></li>
-            </ul>
-        </nav>
-    </header>
+    <body>
 
-    <main>
-        <section class="services">
+        <!--
+            HEADER & NAVIGATION 
+        -->
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="AutoLab Enterprise Logo">
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!--
+            MAIN CONTENT
+        -->
+        <main>
+
             <h1>OUR SERVICES</h1>
 
-            <div class="service-section">
+            
+            <!-- Transport Services -->
+            <section id="transport">
                 <h2>Transport Services</h2>
-                <p>FLEET TRANSPORT SOLUTION DESCRIPTION
-                    Our fleet transport services offers reliable,cost-effective logistics tailored to business needs.
-                    we specialize in per-kilometer pricing, transparent payment terms and comprehensive insurance coverage to ensure both efficiency and peace of mind.
+                <p>FLEET TRANSPORT SOLUTION DESCRIPTION<br/>
+                    Our fleet transport services offers reliable,cost-effective logistics tailored to business needs.<br/>
+                    we specialize in per-kilometer pricing, transparent payment terms and comprehensive insurance coverage to ensure efficiency.<br/>
                     We offer:
                     <ul>
-                        <li>Vans for group logistics and Trucks for cargo delivery.</li>
+                        <li>Vans for group logistics.</li>
+                        <li>Suerlink flat deck trucks suitable for hardware goods and general cargo delivery.</li>
+                        <li>Sidetippers ideal for bulk geain coal transpoetation</li>
                         <li>Smart management that includes GPS tracking, fuel monitoring and driver performance analytics intergrated into a central dashboard.</li>
-                        <li>Flexible Contracts which include short-term rentals for projects,long-term leases for ongoing operations and pay-per-use models for startups.</li>
                         <li>Support services where 24/7 roadside assistance, scheduled maintenance and replacement vehicles are always ready to minimize downtime.</li>
                     </ul>
-                    PRICING MODEL
+                    PRICING TERMS AND CHARGES<br/>
                     Our pricing is tiered to accommodate different business sizes and needs.
                     <ul>
-                        <li>Standard Rate- P70 per loaded kilometer.</li>
-                        <li>Negotiable Terms- Discounts or adjustment rates may apply depending on contract length, volume of loads or special arrangements.</li>
-                    </ul>
-                    PRICING TERMS 
-                    <ul>
+                        <li>Standard Rate: P70 per loaded kilometer.</li>
+                        <li>Negotiable Terms: Discounts or adjustment rates may apply depending on contract length, volume of loads or special arrangements.</li>
                         <li>Initial payment: 50% of invoice due upon loading.</li>
                         <li>Final payment: Balance payable upon offloading or within 14 days of delivery note issuance.</li>
                         <li>Transparency: Clear invoicing and documentation at every stage of the transport process.</li>
                     </ul>
-                    SAFETY & Insurance
+                    SAFETY & Insurance<br/>
                     Please note that:
                     <ul>
                         <li>Every transport load is automatically insured by the the company.</li>
@@ -57,13 +69,16 @@
                         <li>Insurance coverage includes accidents, theft and unforseen events during transit.</li>
                     </ul>
                 </p>
-            </div>
+            </section>
 
-            <div class="service-section">
+
+            <!-- MECHANICAL MAINTENANCE -->
+            <section id="mechanical">
                 <h2>Mechanical Maintenance</h2>
-                <p>MECHANICAL & TECHNICAL SERVICES
-                    We provide specialized services across generators, earthmoving machinery, refurbishment and general maintenance,
-                    ensuring reliability, compliance and long-term performance for our clients.
+                <p>
+                    MECHANICAL & TECHNICAL SERVICES<br/>
+                    We provide specialized services across generators, earthmoving machinery, refurbishment and general maintenance,<br/>
+                    ensuring reliability, compliance and long-term performance for our clients.<br/>
                     Service Scope:
                     <ul>
                         <li>Generators: installation, servicing and mechenical maintenance to gurantee uninterrupted power supply.</li>
@@ -71,29 +86,30 @@
                         <li>Refurbishment: We provide restoration of worn or outdated equipment to extend operational life and improve efficiency.</li>
                         <li>General Maintenance: Routine mechanical checks, lubrication, and repairs across industrial and commercial equipment.</li>
                     </ul>
-                    Pricing & Charges
+                    PRICING TERMS AND CHARGES
                     <ul>
                         <li>We offer free assessments on site visits and quotation before work commences.</li>
                         <li>Our labour rate for mechanical maintenance and repair work is P800.00 per hour.</li>
                         <li>Discounts for long-term contracts or large-scale projects are highly prioritized.</li>
+                        <li>10% mobilization fee is required up front and remaining balance of the invoice on completion of work or within 30 days of commissioning.</li>
+                        <li>Clear documentation and invoicing provided at every stage of the project.</li>
                     </ul>
-                    Warranty & Insurance
+                    Warranty & Insurance<br/>
+                    Please note that:
                     <ul>
                         <li>Our workmanship comes with a 6 months warranty coverage on all completed work.</li>
                         <li>Clients benefit from both warranty and insurance protection ensuring accountability.</li>
                     </ul>
-                    Payment Terms 
-                    <ul>
-                        <li>10% mobilization fee is required up front and remaining balance of the invoice on completion of work or within 30 days of commissioning.</li>
-                        <li>Clear documentation and invoicing provided at every stage of the project.</li>
-                    </ul>
                 </p>
-            </div>
+            </section>
 
-            <div class="service-section">
+
+            <!-- PLANT HIRE -->
+            <section id="plant">
                 <h2>Plant Hire</h2>
-                <p>PLANT HIRE SERVICES
-                    We provide a wide range or heavy machinery for hire, ensuring clients have access to reliable equipments for construction, mining and infrastructure projects.<br/>We have:
+                <p>PLANT HIRE SERVICES<br/>
+                    We provide a wide range of heavy machinery for hire, ensuring clients have access to reliable equipments for construction, mining and infrastructure projects.<br/>
+                    Plant available for hire:
                     <ul>
                         <li>Trucks for haulage and logistics</li>
                         <li>Excavators for digging and site preparation</li>
@@ -108,12 +124,19 @@
                         <li>For sites located 35km or more from our station, transport charges apply.</li>
                     </ul>
                 </p>
-            </div>
-        </section>
-    </main>
+            </section>
+
+        </main>
+
     
-    <footer>
-        <p>&copy; 2026 AutoLab Enterprise. All rights reserved.</p>
-    </footer>
-</body>
+        <!--
+            FOOTER 
+        -->
+        <footer>
+            <p>&copy; 2026 AutoLab Enterprise. All rights reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+
 </html>
