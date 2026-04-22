@@ -11,3 +11,34 @@ body {
     background-color: rgb(244, 241, 236);
     color: rgb(44, 44, 44);
 }
+
+/* HEADER & NAVIGATION */
+
+header {
+    background-color: rgb(26, 26, 46);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 120px ;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: rgb(212, 65, 10);
+}
