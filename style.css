@@ -154,3 +154,45 @@ nav ul li a:hover {
     background-color: rgb(168, 50, 8);
     color: white;
 }
+
+/* INSURANCE SECTION*/
+
+#insurance {
+    background-color: rgb(26, 26, 46);
+    color: white;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+#insurance h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+#insurance p {
+    color: rgb(245, 166, 35);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.insurance-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.insurance-images img {
+    width: 250px;
+    border-radius: 8px;
+}
+
+/* FOOTER*/
+footer {
+    background-color: rgb(17, 17, 17);
+    color: rgb(136, 136, 136);
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
