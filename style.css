@@ -1,0 +1,13 @@
+/* GENERAL STYLES */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(244, 241, 236);
+    color: rgb(44, 44, 44);
+}
