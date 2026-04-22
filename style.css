@@ -42,3 +42,57 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(212, 65, 10);
 }
+
+/* HERO SECTION*/
+
+#hero {
+    background-color: rgb(26, 26, 46);
+    color: white;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+#hero h1 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+#hero  .tagline {
+    color: rgb(245, 166, 35);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#hero h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#hero ul {
+    list-style: none;
+    padding: 0;
+}
+
+#hero ul li {
+    padding: 5px 0;
+    color: rgb(204, 204, 204);
+}
+
+#hero ul li::before {
+    content: ">";
+    color: rgb(212, 65, 10);
+}
+
+.hero-slideshow .slides img {
+    width: 50%;
+    position: relative;
+}
+
+.hero-slideshow .slides img {
+    width: 100%;
+    border-radius: 8px;
+}
