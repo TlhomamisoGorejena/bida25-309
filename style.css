@@ -196,3 +196,94 @@ footer {
     padding: 20px;
     font-size: 14px;
 }
+
+/* PAGE HERO FOR ALL INNER PAGES*/
+
+h1 {
+    background-color: rgb(26, 26, 46);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: 42px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+/* ABOUT PAGE */
+
+#company-background {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 30px;
+    background-color: white;
+}
+
+#company-background h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(26, 26, 46);
+    margin-bottom: 15px;
+}
+
+#company-background p {
+    color: rgb(102, 102, 102);
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.about-image img {
+    width: 400 px;
+    border-radius: 8px;
+}
+
+#sadc-footprint {
+    background-color: rgb(244, 241, 236);
+    padding: 60px 30px;
+    text-align: center;
+}
+
+#sadc-footprint h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(26, 26, 46);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.map img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 8px;
+}
+
+#safety {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 30px;
+    background-color: white;
+}
+
+#safety h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(26, 26, 46);
+    margin-bottom: 15px;
+}
+
+#safety p {
+    color: rgb(102, 102, 102);
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.safety-image img {
+    width: 400px;
+    border-radius: 8px;
+}
