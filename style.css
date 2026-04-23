@@ -320,3 +320,117 @@ h1 {
     line-height: 1.8;
     font-size: 15px;
 }
+
+/* CONTACT PAGE */
+#contact-info {
+    background-color: white;
+    padding: 60px 30px;
+    max-width: 700px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+#contact-info h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color:rgb(26, 26, 46);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact-info ul li {
+    padding: 15px 0;
+    font-size: 16px;
+    color: rgb(44, 44, 44);
+    border-bottom: 1px solid #e8e3da;
+}
+
+#contact-info ul li:last-child {
+    border-bottom: none;
+}
+
+#contact-info ul li::before {
+    content: ">";
+    color: rgb(212, 65, 10);
+}
+
+/* FEEDBACK PAGE */
+
+#feedback-form {
+    padding: 60px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#feedback-form form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    max-width: 600px;
+}
+
+#feedback-form h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(26, 26, 46);
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#feedback-form label {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(44, 44, 44);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#feedback-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1.5px solid #e8e3da;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(44, 44, 44);
+    background-color: rgb(244, 241, 236);
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+#feedback-form textarea:focus {
+    border-color: rgb(212, 65, 10);
+    outline: none;
+    background-color: white;
+}
+
+#feedback-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(212, 65, 10);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#feedback-form button:hover {
+    background-color: rgb(131, 0, 128);
+}
