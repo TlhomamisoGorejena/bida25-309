@@ -287,3 +287,36 @@ h1 {
     width: 400px;
     border-radius: 8px;
 }
+
+/* SERVICES PAGE */
+
+#transport,
+#mechanical,
+#plant {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 30px auto;
+    max-width: 900px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+    border-top: 4px solid d4410a;
+}
+
+#transport h2,
+#mechanical h2,
+#plant h2 {
+    font-size: 28 px;
+    font-weight: 700;
+    color: rgb(26, 26, 46);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#transport p,
+#mechanical p,
+#plant p {
+    color: rgb(102, 102, 102);
+    line-height: 1.8;
+    font-size: 15px;
+}
