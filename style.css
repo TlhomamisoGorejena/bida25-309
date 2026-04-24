@@ -47,7 +47,7 @@ nav ul li a:hover {
 
 #hero {
     background-image: url(images/Hero-bg.jpeg);
-    background-size: 100%;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     color: white;
