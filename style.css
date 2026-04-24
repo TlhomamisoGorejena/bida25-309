@@ -47,7 +47,7 @@ nav ul li a:hover {
 
 #hero {
     background-image: url(images/Hero-bg.jpeg);
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     color: white;
@@ -87,7 +87,7 @@ nav ul li a:hover {
 }
 
 #hero ul li::before {
-    content: ">";
+    content: "-";
     color: rgb(212, 65, 10);
 }
 
@@ -453,4 +453,10 @@ h1 {
 
 #feedback-form button {
     width: 100%;
+}
+
+/* HERO TEXT FIX */
+
+.hero-text {
+    background-color: transparent;
 }
