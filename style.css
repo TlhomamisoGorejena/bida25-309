@@ -434,3 +434,23 @@ h1 {
 #feedback-form button:hover {
     background-color: rgb(131, 0, 128);
 }
+
+/* FEEDBACK FIX */
+
+#feedback-form .col-12 {
+    padding: 40px;
+}
+
+#feedback-form form {
+    width: 100%;
+}
+
+#feedback-form textarea {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+#feedback-form button {
+    width: 100%;
+}
