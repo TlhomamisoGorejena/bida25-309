@@ -24,7 +24,7 @@
             </div>
 
             <nav>
-                <ul>
+                <ul class="d-flex list-unstyled mb-0">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="services.html">Services</a></li>
@@ -35,28 +35,32 @@
         </header>
 
 
-        <!--
-            MAIN CONTENT
-        -->
-        <main>
+        <!-- FEEDBACK TITTLE PAGE -->
+        <h1>Feedback</h1>
 
-            <h1>Feedback</h1>
+        <!-- MAIN CONTENT -->
+         <main class="container-fluid">
 
             <!-- Feedback-form -->
             <section id="feedback-form">
+                <div class="row justify-content-center">
 
-                <form action="#" method="post">
-                    <h2>Feedback Form</h2>
-                        <div> 
-                            <label for="comments">Comments:</label>
-                            <textarea id="comments" rows="5"cols="40" 
-                                placeholder="Write you comments here..."></textarea>
-                        </div>
+                    <div class="col-12 col-md-6">
+                        <form action="#" method="post">
+                            <h2>Feedback Form</h2>
 
-                    <button type="submit">Submit Feedback</button>
+                            <div class="mb-3"> 
+                                <label for="comments">Comments:</label>
+                                <textarea id="comments" name="comments" rows="5" 
+                                    placeholder="Write you comments here..."></textarea>
+                            </div>
 
-                </form>
+                            <button type="submit">Submit Feedback</button>
 
+                        </form>
+                    </div>
+                    
+                </div>
             </section>
 
         </main>
