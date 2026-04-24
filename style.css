@@ -46,13 +46,17 @@ nav ul li a:hover {
 /* HERO SECTION*/
 
 #hero {
-    background-color: rgb(26, 26, 46);
+    background-image: url(images/Hero-bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
-    padding: 50px 30px;
+    padding: 60px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    position:relative
 }
 
 #hero h1 {
