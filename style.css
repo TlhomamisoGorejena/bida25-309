@@ -474,3 +474,11 @@ h1 {
     background-color: transparent;
     z-index: 1;
 }
+
+/* ACTIVE NAV LINK */
+
+nav ul a.active {
+    color: white;
+    border-bottom: 2px solid rgb(212, 65, 10);
+    padding-bottom: 4px;
+}
