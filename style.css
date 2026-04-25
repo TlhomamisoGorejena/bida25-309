@@ -47,8 +47,8 @@ nav ul li a:hover {
 
 #hero {
     background-image: url(images/Hero-bg.jpeg);
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     color: white;
     padding: 60px 30px;
@@ -56,7 +56,7 @@ nav ul li a:hover {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    position:relative
+    min-height: 500px;
 }
 
 #hero h1 {
