@@ -116,35 +116,39 @@ nav ul li a:hover {
     margin-bottom: 40px;
 }
 
-.service-cards {
+.services-cards {
     display: flex;
     justify-content: center;
     gap: 30px;
+    align-items: stretch;
 }
 
 .card {
     background-color: white;
     border-radius: 8px;
     overflow: hidden;
-    padding: 20px;
     width: 30%;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
     display: flex
     flex-direction: column;
+    padding: 0;
 }
 
 .card img {
     width: 100%;
-    border-radius: 8px;
-    margin-bottom: 15px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    border-radius: 0;
 }
 
 .card h3 {
     font-size: 20px;
     font-weight: 700;
     color: rgb(26, 26, 46);
-    margin-bottom: 15px;
+    margin: 15px 0;
+    padding: 0 15px;
 }
 
 .btn {
@@ -160,6 +164,12 @@ nav ul li a:hover {
 .btn:hover {
     background-color: rgb(168, 50, 8);
     color: white;
+}
+
+.card .btn {
+    display: block;
+    margin: 0 15px 15px 15px;
+    text-align: center;
 }
 
 /* INSURANCE SECTION*/
