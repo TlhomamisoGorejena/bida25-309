@@ -125,10 +125,13 @@ nav ul li a:hover {
 .card {
     background-color: white;
     border-radius: 8px;
+    overflow: hidden;
     padding: 20px;
     width: 30%;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
+    display: flex
+    flex-direction: column;
 }
 
 .card img {
