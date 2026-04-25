@@ -459,4 +459,5 @@ h1 {
 
 .hero-text {
     background-color: transparent;
+    z-index: 1;
 }
