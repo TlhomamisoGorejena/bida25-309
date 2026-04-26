@@ -46,7 +46,7 @@ nav ul li a:hover {
 /* HERO SECTION*/
 
 #hero {
-    background-image: url(images/Hero-bg.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/Hero-bg.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
