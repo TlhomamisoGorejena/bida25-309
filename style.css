@@ -116,12 +116,13 @@ nav ul li a:hover {
     margin-bottom: 40px;
 }
 
-.services-cards {
+.service-cards {
     display: flex;
     justify-content: center;
     gap: 25px;
     align-items: stretch;
     padding: 0 40px;
+    flex-wrap: wrap;
 }
 
 .card {
