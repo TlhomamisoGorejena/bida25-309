@@ -300,8 +300,8 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
-    padding: 60px 30px;
+    gap: 60px;
+    padding: 60px 40px;
     background-color: white;
 }
 
@@ -318,8 +318,18 @@ h1 {
     font-size: 15px;
 }
 
+.safety-text {
+    flex: 1;
+}
+
+.safety-image {
+    flex: 1;
+}
+
 .safety-image img {
-    width: 400px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
     border-radius: 8px;
 }
 
