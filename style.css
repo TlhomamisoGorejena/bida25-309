@@ -63,22 +63,26 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: 800;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 #hero  .tagline {
     color: rgb(245, 166, 35);
     font-style: italic;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #hero h2 {
     font-size: 20px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 #hero ul {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 #hero ul li {
@@ -95,11 +99,18 @@ nav ul li a:hover {
     background-color: transparent;
     z-index: 1;
     flex: 1;
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .hero-slideshow {
     flex: 1;
     position: relative;
     padding: 20px;
+    margin-left: auto;
+    max-width: 55%;
 }
 
 .hero-slideshow .slides img {
