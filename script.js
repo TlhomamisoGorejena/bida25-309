@@ -8,6 +8,7 @@ function showSlide(index) {
     slides.forEach(function(slide) {
         slide.style.display ='none';
     });
+    slides[index].style.display = 'block';
 }
 
 function nextSlide() {
