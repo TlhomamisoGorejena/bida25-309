@@ -48,19 +48,23 @@ nav ul li a:hover {
 #hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/Hero-bg.png);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     color: white;
-    padding: 60px 30px;
+    padding: 40px 30px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-    position: relative;
+    flex-direction: column;
+    min-height: 500px;
+}
+
+.hero-top {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 #hero h1 {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 800;
     margin-bottom: 10px;
     text-align: center;
@@ -69,20 +73,26 @@ nav ul li a:hover {
 #hero  .tagline {
     color: rgb(245, 166, 35);
     font-style: italic;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     text-align: center;
+}
+
+.hero-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
 }
 
 #hero h2 {
     font-size: 20px;
     margin-bottom: 10px;
-    text-align: center;
 }
 
 #hero ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
+list-style: none;
+padding: 0;
 }
 
 #hero ul li {
@@ -95,40 +105,29 @@ nav ul li a:hover {
     color: rgb(212, 65, 10);
 }
 
-.hero-text{
-    background-color: transparent;
-    z-index: 1;
-    flex: 1;
-    max-width: 45%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 .hero-slideshow {
     flex: 1;
     position: relative;
     padding: 20px;
-    margin-left: auto;
-    max-width: 55%;
 }
 
-.hero-slideshow .slides img {
+.hero-slideshow.slides img {
     width: 100%;
-    height: 350px;
+    height: 300px;
     object-fit: cover;
     border-radius: 8px;
     display: none;
 }
 
-.hero-slideshow .slides img:first-child {
+.hero-slides img:first-child {
     display: block;
 }
 
 .slide-btn {
-    position: absolute;
+    position:absolute;
     top: 50%;
     transform: translateY(-50%);
+    background-color: rgb(212, 65, 10);
     color: white;
     border: none;
     padding: 10px 15px;
@@ -139,12 +138,13 @@ nav ul li a:hover {
 }
 
 .slide-btn.prev {
-    left: 25px;
+left: 25px;
 }
 
 .slide-btn.next {
     right: 25px;
 }
+
 /* SERVICES PREVIEW SECTION*/
 
 #services-preview {
