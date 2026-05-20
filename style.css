@@ -20,6 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 header .logo img {
@@ -29,14 +30,17 @@ header .logo img {
 nav ul{
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 600;
+    padding: 4px 8px;
 }
 
 nav ul li a:hover {
@@ -564,3 +568,34 @@ nav ul a.active {
     padding: 0 15px;
     width: 100%;
 }
+
+@media (max-width:600px) {
+    #hero h1 {
+        font-size: 22px;
+    }
+
+    .hero-bottom {
+        flex-direction: column;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-slideshow {
+        width: 100%;
+        height: 180px;
+    }
+
+    .logo-text {
+        font-size: 14px;
+    }
+
+    nav ul li a {
+        font-size: 11px;
+        padding: 3px 5px;
+    }
+    
+}
+
+
