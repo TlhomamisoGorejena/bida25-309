@@ -121,8 +121,7 @@ padding: 0;
     padding: 5px;
     overflow: hidden;
     height: 200px;
-    background-color: rgba(0, 0, 0, 0.3
-    );
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .hero-slideshow.slides img {
@@ -134,7 +133,7 @@ padding: 0;
     display: none;
 }
 
-.hero-slides img:first-child {
+.hero-slideshow.slides img:first-child {
     display: block;
 }
 
