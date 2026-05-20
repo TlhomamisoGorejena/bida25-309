@@ -569,33 +569,236 @@ nav ul a.active {
     width: 100%;
 }
 
-@media (max-width:600px) {
+/* screens smaller than 768px*/
+
+@media (max-width: 768px) {
+
+    /* Header */
+    header {
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    /* Hero section */
+    #hero {
+        max-height: none;
+        height: auto;
+        padding: 20px 15px;
+    }
+
+    .hero-top {
+        margin-bottom: 15px;
+    }
+
     #hero h1 {
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .hero-bottom {
         flex-direction: column;
+        gap: 15px;
     }
 
     .hero-text {
         width: 100%;
+        text-align: center;
     }
 
     .hero-slideshow {
         width: 100%;
-        height: 180px;
+        height: 200px;
     }
 
+    /* Service cards */
+    .service-cards {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* About page */
+    #company-background {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .about-image {
+        width: 100%;
+    }
+
+    .about-image img {
+        width: 100%;
+    }
+
+    #safety {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .safety-text {
+        width: 100%;
+    }
+
+    .safety-image {
+        width: 100%;
+    }
+
+    /* Insurance */
+    .insurance-images {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .insurance-images img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Services page */
+    #transport,
+    #mechanical,
+    #plant {
+        margin: 15px 10px;
+        padding: 20px 15px;
+    }
+
+    /* Contact */
+    #contact-info {
+        padding: 30px 20px;
+        margin: 20px 10px;
+    }
+
+    /* Feedback */
+    #feedback-form {
+        padding: 30px 15px;
+    }
+
+    #feedback-form form {
+        padding: 20px;
+    }
+
+}
+
+/* screens smaller than 480px */
+
+@media (max-width: 480px) {
+
+    /* Logo */
     .logo-text {
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    /* Navigation */
+    nav ul {
+        gap: 4px;
     }
 
     nav ul li a {
         font-size: 11px;
-        padding: 3px 5px;
+        padding: 4px 5px;
     }
-    
-}
 
+    /* Hero */
+    #hero {
+        padding: 15px 10px;
+    }
+
+    #hero h1 {
+        font-size: 18px;
+    }
+
+    #hero h2 {
+        font-size: 15px;
+    }
+
+    #hero ul li {
+        font-size: 12px;
+    }
+
+    .hero-slideshow {
+        width: 100%;
+        height: 170px;
+    }
+
+    /* Page titles */
+    h1 {
+        font-size: 24px;
+        padding: 20px 10px;
+        letter-spacing: 1px;
+    }
+
+    /* Cards */
+    .card img {
+        height: 180px;
+    }
+
+    /* About */
+    #company-background,
+    #safety {
+        gap: 20px;
+    }
+
+    .about-image img,
+    .safety-image img {
+        max-height: 250px;
+    }
+
+    /* Services */
+    #transport,
+    #mechanical,
+    #plant {
+        margin: 10px 5px;
+        padding: 15px 10px;
+    }
+
+    /* Contact */
+    #contact-info {
+        margin: 10px 5px;
+        padding: 20px 10px;
+    }
+
+    #contact-info ul li {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    /* Feedback */
+    #feedback-form form {
+        padding: 15px;
+    }
+
+    #feedback-form h2 {
+        font-size: 20px;
+    }
+
+    #feedback-form button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* Footer */
+    footer {
+        font-size: 11px;
+        padding: 12px;
+    }
+
+}
 
