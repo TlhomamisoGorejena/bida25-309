@@ -806,7 +806,7 @@ nav ul a.active {
 @media (min-width: 1024px) {
   .hero-slideshow {
     width: 100%;
-    height: 500px; /* or 600px if you want it taller */
+    height: 600px;
   }
 }
 
