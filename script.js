@@ -48,12 +48,9 @@ document.querySelector('#feedback-form').addEventListener('submit',function(e) {
  else {
   const msg = document.createElement('p');
   msg.textContent = 'Thank you for your feedback!';
-  msg.style.color = 'green';
-  msg.style.fontWeight = 'bold';
-  msg.style.marginTop = '10px';
-
   document.querySelector('#feedback-form').appendChild(msg);
   document.querySelector('#comments').value = '';
+
 }
 
 });
