@@ -121,11 +121,11 @@ padding: 0;
 
 .hero-slideshow {
     width: 100%;
-    max-width: 420px;
+    max-width: 500px;
     position: relative;
     padding: 5px;
     overflow: hidden;
-    height: 260px;
+    height: 450px;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
