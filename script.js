@@ -36,7 +36,7 @@ document.querySelector('.slide-btn.prev').addEventListener('click', prevSlide);
 // FEEDBACK FORM VALIDATION
 //
 
-document.querySelector('#feedback-form form').addEventListener('submit',function(e) {
+document.querySelector('#feedback-form').addEventListener('submit',function(e) {
     e.preventDefault();
 
     const comments = document.querySelector('#comments').value.trim();
