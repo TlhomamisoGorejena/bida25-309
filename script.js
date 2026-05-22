@@ -43,8 +43,17 @@ document.querySelector('#feedback-form form').addEventListener('submit',function
 
     if (comments === '') {
         alert('Please write your comments before submitting.');
-    } else {
-        alert('Thank you for your feedback!');
-        document.querySelector('#comments').value='';
     }
+
+ else {
+  const msg = document.createElement('p');
+  msg.textContent = 'Thank you for your feedback!';
+  msg.style.color = 'green';
+  msg.style.fontWeight = 'bold';
+  msg.style.marginTop = '10px';
+
+  document.querySelector('#feedback-form').appendChild(msg);
+  document.querySelector('#comments').value = '';
+}
+
 });
