@@ -40,13 +40,16 @@ document.querySelector('#feedback-form form').addEventListener('submit', functio
     e.preventDefault();
 
     const comments = document.querySelector('#comments').value.trim();
+    const errorMsg = document.getElementById('error-msg');
+    const successMsg = document.getElementById('success-msg');
+
 
     if (comments === '') {
-        document.getElementById('error-msg').style.display = 'block';
-        document.getElementById('success-msg').style.display = 'none';
+        errorMsg.style.display = 'block';
+        successMsg.style.display = 'none';
     } else {
-        document.getElementById('success-msg').style.display = 'block';
-        document.getElementById('error-msg').style.display = 'none';
+        successMsg.style.display = 'block';
+        errorMsg.style.display = 'none';
         document.querySelector('#comments').value = '';
     }
 });
