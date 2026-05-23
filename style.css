@@ -536,6 +536,21 @@ h1 {
 #feedback-form button:hover {
     background-color: rgb(131, 0, 128);
 }
+/*FEEDBACK MESSAGES*/
+
+#error-msg {
+    display: none;
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#success-msg {
+    display: none;
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
 
 /* ACTIVE NAV LINK */
 

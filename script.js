@@ -36,29 +36,17 @@ document.querySelector('.slide-btn.prev').addEventListener('click', prevSlide);
 // FEEDBACK FORM VALIDATION
 //
 
-document.addEventListener('DOMContentLoaded', function() {
-  const form = document.querySelector('#feedback-form');
-  const commentsBox = document.querySelector('#comments');
-
-  form.addEventListener('submit', function(e) {
+document.querySelector('#feedback-form form').addEventListener('submit', function(e) {
     e.preventDefault();
 
-    const comments = commentsBox.value.trim();
+    const comments = document.querySelector('#comments').value.trim();
 
     if (comments === '') {
-      alert('Please write your comment here...');
+        document.getElementById('error-msg').style.display = 'block';
+        document.getElementById('success-msg').style.display = 'none';
     } else {
-      // remove old message if it exists
-      const oldMsg = form.querySelector('p');
-      if (oldMsg) oldMsg.remove();
-
-      // create and show new message
-      const msg = document.createElement('p');
-      msg.textContent = 'Thank you for your feedback!';
-      form.appendChild(msg);
-
-      // clear the comment box
-      commentsBox.value = '';
+        document.getElementById('success-msg').style.display = 'block';
+        document.getElementById('error-msg').style.display = 'none';
+        document.querySelector('#comments').value = '';
     }
-  });
 });
